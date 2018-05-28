@@ -1,3 +1,24 @@
 body{
-    background: blueviolet;
+    background:gold;
 }
+header{
+    background-color: chocolate;
+    height: 100px;
+    text-align: center;
+    font-size: 50px;
+
+}
+
+
+
+#texto1{
+height: 200px;
+width: 300px;
+
+}
+
+#texto2{
+    height: 200px;
+    width: 300px;
+    
+    }
