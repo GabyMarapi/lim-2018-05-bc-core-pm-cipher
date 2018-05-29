@@ -9,11 +9,10 @@ const buttonCifrar1 = document.getElementById('descifrar');
 
 
 
-let texto1='';
 
 const cifrar = (texto1) =>{
     texto1=inputElement1.value;
-    const offSet=prompt('Ingresa el OffSet para la decodificación');//obtener el offset
+    const offSet=parseInt(prompt('Ingresa el OffSet para la decodificación'));//obtener el offset
     let show=''
     for (let i=0; i < texto1.length; i++){
     const x=texto1.charCodeAt(i);
