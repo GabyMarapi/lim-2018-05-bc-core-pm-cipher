@@ -1,24 +1,51 @@
 
-const codificar = (String,offSet) =>{
-  let show=''
+const codificar = (string,offSet) =>{
+  let show = '';
+  let convertedLetter = 0;
+
   for (let i=0; i < string.length; i++){
-  const x=string.charCodeAt(i);
-  
-  const r= (x- 65 + offSet)%26+65;
-  show+=String.fromCharCode(r);
+
+  const asciiCode=string.charCodeAt(i);
+
+  if (asciiCode >=65 && asciiCode <=90){
+    convertedLetter= (asciiCode - 65 + offSet)%26+65;
+    show+=String.fromCharCode(convertedLetter);
+
+  }else if (asciiCode >=97 && asciiCode <=122) {
+    convertedLetter = (asciiCode - 97 + offSet)%26+97;
+    show+=String.fromCharCode(convertedLetter);
+
+  }else{
+    show+=String.fromCharCode(asciiCode);
   }
-  return inputElement2.value=show;
+  
+  }
+  return show;
 }
 
-const decodificar = (String,offSet) =>{
-  let show=''
+
+const decodificar = (string,offSet) =>{
+  let show = '';
+  let convertedLetter = 0;
+
   for (let i=0; i < string.length; i++){
-  const x=string.charCodeAt(i);
-  
-  const r= (x+ 65 - offSet)%26+65;
-  show+=String.fromCharCode(r);
+
+  const asciiCode=string.charCodeAt(i);
+
+  if (asciiCode >=65 && asciiCode <=90){
+    convertedLetter= (asciiCode + 65 - offSet)%26+65;
+    show+=String.fromCharCode(convertedLetter);
+
+  }else if (asciiCode >=97 && asciiCode <=122) {
+    convertedLetter = (asciiCode + 97 - offSet)%26+97;
+    show+=String.fromCharCode(convertedLetter);
+
+  }else{
+    show+=String.fromCharCode(convertedLetter);
   }
-  return inputElement2.value=show;
+  
+  }
+  return show;
 }
 window.cipher = {
   encode: codificar,
