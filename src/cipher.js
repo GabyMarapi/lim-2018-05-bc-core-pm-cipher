@@ -46,7 +46,7 @@ window.cipher = {
      
       convertedLetter = (asciiCode - 97 - offSet + 52) % 26 + 97;
      
-      console.log(convertedLetter);
+      
       show+=String.fromCharCode(convertedLetter);
       
                  
