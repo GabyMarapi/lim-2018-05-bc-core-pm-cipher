@@ -4,6 +4,8 @@
     <meta charset="utf-8">
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
   </head>
   <body>
        
@@ -13,10 +15,10 @@
         <h1>Cifremos</h1>
       </header>
       <div id="headerBottom">
-        <p>Acerca de cifrado</p>
+        <p>Cifra y descrifra de manera facil¡¡</p>
       </div>
       <div id="inputOffset">
-        <h2>Ingrese el numero de recorrido</h2>
+        <h2>Ingresar un número </h2>
         <input type="number" min="0" id ="offSet">
       </div>
       <div id="cleanCopy">
@@ -25,20 +27,21 @@
       </div>
       <div id="main">
         <div class="inputText">
-          <textarea id ="text1" rows="10" ></textarea>
+          <textarea id ="text1" placeholder="Escribir el texto o palabra que deseas Cifrar o Descifrar." 
+
+          rows="10" ></textarea>
         </div>
         <div id="buttons">
           <button id="encode">Cifrar</button>
           <button id="decode">Descifrar</button>
         </div>
         <div class="inputText">
-          <textarea readonly id ="text2" rows="10"></textarea>
+          <textarea readonly id ="text2"  rows="10"></textarea>
         </div>
       </div>
-      <footer>Derechos reservados</footer>
+      <footer><p1>Derechos reservados @ </p1></footer>
     </div>
   <script src="cipher.js"></script>
   <script src="index.js"></script>
   </body>
 </html>
-

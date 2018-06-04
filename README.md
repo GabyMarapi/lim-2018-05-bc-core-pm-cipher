@@ -1,8 +1,26 @@
-1ra Publicación, "Cifrado de Cesar"
+## "Cifrado de Cesar"
 
-La presente página web permite a los usuarios contar con una plataforma web capaz de cifrar y descifrar una cadena de caracteres mediante la sustitución alfabética simple.
+#Objetivo
+La presente página web permitirá a los usuarios contar con una plataforma web capaz de cifrar y descifrar una cadena de caracteres mediante la sustitución alfabética simple.
 
-Enfoque del primer entregable: Desarrolar el algoritmo del cifrado y el descifrado
+#Introducción
+
+CIFREMOS va dirigidos a los jóvenes que tienen un particular interés de comunicarse de mediante textos cifrados, ya sea para organizar un evento, fiesta, reunión, etc. El interés de los usuarios en utilizar el aplicativo web "CIFREMOS" parte en la necesidad de que les permita cifrar mensajes para posteriormente ser enviados a los demás miembros del grupo ya sea WhatsApp, Messenger u otra red social. El cifrado de textos conlleva a su vez al descifrado para que se pueda entender o interpretar el mensaje recibido. 
+
+Principales usuarios: Jóvenes que organicen un evento.
+
+Objetivo del usuario: 
+•	Permita cifrar y descifrar textos para luego ser enviados
+•	Contar con un aplicativo web con un interfaz agradable, practica y fácil de usar.
+•	Que la funcionalidad del aplicativo web sea al 100% 
+•	
+Necesidad que resuelve:
+•	Enviar mensajes cifrados y descifrados en los grupos creados en las redes sociales
+
+
+
+El aplicativo web fue desarrollado en JavaScript, HTML y CSS. 
+
 
 Consta de lo siguiente para su representación en la web:
 
@@ -31,7 +49,9 @@ Contiene los eventos DOM
              
 
 ##CSS
+Basado en un diseño sencillo y practico de traduccion.
 
-No se hizo cambios resaltantes.
+Basado en styles.
 
-Obs. Pendiente su desarrollo.
+
+

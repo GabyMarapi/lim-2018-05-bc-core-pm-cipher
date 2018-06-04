@@ -54,5 +54,3 @@ buttonCopy.addEventListener('click', (id_elemento) =>{
         //console.log("texto copiado")
         
 })
-
-

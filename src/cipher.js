@@ -1,4 +1,3 @@
-
 window.cipher = {
   encode: (offSet,string)=>{
     let show = '';
@@ -36,7 +35,8 @@ window.cipher = {
    //mayusculas
     if (asciiCode >=65 && asciiCode <=90){
 
-      convertedLetter = (asciiCode - 65-offSet+26) % 26 + 65;
+      convertedLetter = (asciiCode + 65 - offSet + 52) % 26 + 65;
+     
       
       show+=String.fromCharCode(convertedLetter);
                
@@ -44,8 +44,9 @@ window.cipher = {
   //minusculas
     }else if (asciiCode >=97 && asciiCode <=122) {
      
-      convertedLetter = (asciiCode - 97-offSet+26) % 26 + 97;
-      
+      convertedLetter = (asciiCode - 97 - offSet + 52) % 26 + 97;
+     
+      console.log(convertedLetter);
       show+=String.fromCharCode(convertedLetter);
       
                  
